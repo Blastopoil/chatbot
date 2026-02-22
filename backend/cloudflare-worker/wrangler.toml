@@ -18,5 +18,4 @@ ALLOWED_ORIGINS = "https://Blastopoil.github.io,https://Blastopoil.me,https://ww
 # Retrieval store id (optional). If unset, retrieval is disabled and Chat Completions is used.
 # VECTOR_STORE_ID = "vs_68ba839542348191a332a3a7caeb2989"
 # Default model used by the Worker (can be overridden per request)
-MODEL = "gemini-2.5-flash"
-OPENAI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/openai/"
+MODEL = "gpt-4o-mini"
