@@ -1,4 +1,4 @@
-# Jerry Zhao — Personal Site
+# Felix FdeC — Personal Site
 
 A minimal, ChatGPT‑style personal website with a sidebar of chats on the left and a prompt composer at the bottom. The frontend is static and can be hosted on GitHub Pages. A Cloudflare Worker backend securely calls the OpenAI API (your key stays server‑side) and streams responses.
 

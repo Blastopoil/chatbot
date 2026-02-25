@@ -40,7 +40,7 @@ Key behaviors in `app.js`:
 - Keyboard: Enter submits, Shift+Enter inserts newline.
 
 Configuration in `config.js`:
-- Set `window.API_BASE` to your deployed Worker URL (e.g., `https://jz-chat-worker.<subdomain>.workers.dev`). Do not put secrets here.
+- Set `window.API_BASE` to your deployed Worker URL (e.g., `https://mi-chatbot-cv.felixfdec.<subdomain>.workers.dev`). Do not put secrets here.
 
 Markdown libraries in `index.html`:
 - `DOMPurify` and `marked` are currently loaded from jsDelivr without SRI to avoid integrity mismatches. If stricter supply-chain controls are required, vendor these libs into `assets/` and update the script tags accordingly.
@@ -75,7 +75,7 @@ Notes:
 - Local preview without a server can cause CORS origin to be `null`. Use a local server for testing, e.g.: `python3 -m http.server 8000` and (optionally) include this origin in `ALLOWED_ORIGINS` while testing.
 
 ## Current UX Summary
-- Start on landing (no active chat). Headshot, “Hi, I’m Jerry”, and suggestions are visible.
+- Start on landing (no active chat). Headshot, “Hi, I’m Felix, and suggestions are visible.
 - Type in the composer and press Enter → new chat is created and becomes active; landing hides.
 - Sidebar shows chats; long titles are truncated with ellipsis.
 - Click a chat to switch; click “New Chat” or the brand to return to landing (no active chat).

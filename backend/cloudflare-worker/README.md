@@ -17,7 +17,7 @@ Endpoints
   - Stream: set `?stream=1` or body `stream: true`; returns an event stream
 
 CORS
-- Set `ALLOWED_ORIGINS` in `wrangler.toml`, e.g. `https://jerryz123.github.io,https://your-domain.com`
+- Set `ALLOWED_ORIGINS` in `wrangler.toml`, e.g. `https://blastopoil.github.io,https://your-domain.com`
 - The Worker echoes the matching origin in `Access-Control-Allow-Origin`
 
 Notes
