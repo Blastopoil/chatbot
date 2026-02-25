@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Update this if you serve on a different canonical domain
-Sitemap: https://www.Blastopoil.me/sitemap.xml
+Sitemap: https://www.blastopoil.github.io/sitemap.xml
