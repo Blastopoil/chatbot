@@ -16,6 +16,6 @@ new_sqlite_classes = ["RateLimiter"]
 # Localhost is intentionally excluded; the Worker rejects localhost requests.
 ALLOWED_ORIGINS = "https://blastopoil.github.io,http://localhost:8000"
 # Retrieval store id (optional). If unset, retrieval is disabled and Chat Completions is used.
-# VECTOR_STORE_ID = "vs_68ba839542348191a332a3a7caeb2989"
+VECTOR_STORE_ID = "vs_699eda1caf448191ad5a543bac97e128"
 # Default model used by the Worker (can be overridden per request)
 MODEL = "gpt-4o-mini"
