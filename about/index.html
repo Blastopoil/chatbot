@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jerry Zhao — About</title>
-    <meta name="description" content="About Jerry Zhao — background, expertise, projects, and links." />
+    <title>Félix Fernández de Castro — About</title>
+    <meta name="description" content="About Félix Fernández de Castro — background and links." />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="https://www.jzhao.me/about/" />
     <meta property="og:type" content="profile" />
-    <meta property="og:title" content="Jerry Zhao — About" />
-    <meta property="og:description" content="Background, expertise, and projects by Jerry Zhao." />
-    <meta property="og:url" content="https://www.jzhao.me/about/" />
-    <meta property="og:image" content="https://www.jzhao.me/assets/headshot.jpg" />
+    <meta property="og:title" content="Félix Fernández de Castro — About" />
+    <meta property="og:description" content="Background of Félix Fernández de Castro." />
+    <meta property="og:url" content="https://www.Blastopoil.me/about/" />
+    <meta property="og:image" content="https://www.Blastopoil.me/assets/headshot.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Jerry Zhao — About" />
-    <meta name="twitter:description" content="Background, expertise, and projects by Jerry Zhao." />
-    <meta name="twitter:image" content="https://www.jzhao.me/assets/headshot.jpg" />
+    <meta name="twitter:title" content="Félix Fernández de Castro — About" />
+    <meta name="twitter:description" content="Background, expertise, and projects by Félix Fernández de Castro." />
+    <meta name="twitter:image" content="https://www.Blastopoil.me/assets/headshot.jpg" />
     <link rel="stylesheet" href="../styles.css" />
     <style>
       body { max-width: 780px; margin: 40px auto; padding: 0 16px; }
@@ -30,93 +30,25 @@
   <body>
     <header class="meta"><a href="/">← Back to site</a></header>
     <main>
-      <h1>Jerry Zhao — About Me</h1>
-
-      <h2>Current Role</h2>
-      <ul>
-        <li>Computer Architect at OpenAI.</li>
-        <li>Based in Oakland, California.</li>
-        <li>At OpenAI, I work on hardware design.</li>
-      </ul>
+      <h1>Félix Fernández de Castro — About Me</h1>
 
       <h2>Education</h2>
       <ul>
-        <li>Ph.D. student at UC Berkeley (2019–2025) in the SLICE, ADEPT, and ASPIRE labs.</li>
-        <li>Advisors: Krste Asanović and Borivoje Nikolić.</li>
-        <li>B.S. in Electrical Engineering and Computer Science (2019).</li>
-      </ul>
-
-      <h2>Research Focus</h2>
-      <ul>
-        <li>Computer architecture and microarchitecture.</li>
-        <li>Performance modeling, accelerator design, and hardware design methodologies.</li>
-        <li>Involved in numerous tapeouts.</li>
-      </ul>
-
-      <h2>Industry Experience</h2>
-      <ul>
-        <li>Interned at Apple in 2021 and 2022:
-          <ul>
-            <li>Platform Architecture CPU team.</li>
-            <li>Vector and Numerics team.</li>
-          </ul>
-        </li>
+        <li>Bachelor student at University of Cantabria (2022–2026) with specialization in Computer Engineering.</li>
       </ul>
 
       <h2>Technical Expertise</h2>
       <ul>
-        <li>CPU microarchitecture, vector microarchitecture, AI microarchitecture.</li>
-        <li>RTL design, simulation, performance modeling.</li>
-        <li>Hardware design methodology, VLSI flows.</li>
-        <li>RISC‑V, Chisel, Rust.</li>
-        <li>Network‑on‑chip design, SoC design.</li>
+        <li>CPU microarchitecture</li>
+        <li>Gem5 simulation</li>
+        <li>C, Python, R</li>
       </ul>
 
       <h2>Links</h2>
       <ul>
-        <li>Website: <a href="https://www.jzhao.me">https://www.jzhao.me</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/jerryzhao1/">jerryzhao1</a></li>
-        <li>GitHub: <a href="https://github.com/jerryz123">jerryz123</a></li>
-        <li>Email: <a href="mailto:jerry@openai.com">jerry@openai.com</a></li>
-        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=y7PdKXsAAAAJ">Jerry’s Google Scholar</a></li>
-      </ul>
-
-      <h2>Project Overview</h2>
-      <p>I have contributed to a wide range of architecture and hardware projects. My work includes deep superscalar out‑of‑order cores (BOOM, SonicBOOM), machine learning accelerators (GEMMINI), vector units (Saturn), interconnects (Constellation), and SoC design frameworks (Chipyard). I am deeply familiar with DSL‑based hardware design flows, performance modeling, architecture design, and accelerator ISA design.</p>
-
-      <h3>SonicBOOM (Lead developer)</h3>
-      <ul>
-        <li>Repo: <a href="https://github.com/riscv-boom/riscv-boom">riscv-boom/riscv-boom</a></li>
-        <li>Description: Extends the Berkeley Out‑of‑Order Machine (BOOM) to significantly higher performance by pushing aggressive superscalar out‑of‑order techniques into an open‑source RISC‑V core.</li>
-        <li>Focus areas: Innovations in fetch, rename, scheduling, and execution to sustain wide‑issue pipelines and deep speculation; modular, extensible Chisel‑based design.</li>
-        <li>Key improvements: Enhanced branch prediction; wider instruction issue and commit; refined load–store queues; scalable instruction scheduling and register renaming structures.</li>
-        <li>Notable: At one point the fastest RISC‑V processor; exposed Linux bugs hidden by deep speculation; first open‑source implementation of the industry‑standard TAGE branch predictor.</li>
-      </ul>
-
-      <h3>GEMMINI (RTL developer)</h3>
-      <ul>
-        <li>Repo: <a href="https://github.com/ucb-bar/gemmini">ucb-bar/gemmini</a></li>
-        <li>Description: Parameterizable open‑source systolic‑array accelerator for dense linear algebra and ML workloads, part of the RISC‑V ecosystem.</li>
-        <li>Contributions: Physical‑design friendly features, including banking of the local memory system.</li>
-      </ul>
-
-      <h3>Saturn (Lead developer)</h3>
-      <ul>
-        <li>Repo: <a href="https://github.com/ucb-bar/saturn-vectors">ucb-bar/saturn-vectors</a></li>
-        <li>Description: Research vector processor for AI and HPC workloads; fully RVV 1.0 compliant with support for virtual memory and precise faults.</li>
-        <li>Microarchitecture: Out‑of‑order execution, vector chaining, and load/store decoupling.</li>
-      </ul>
-
-      <h3>Constellation (Lead developer)</h3>
-      <ul>
-        <li>Repo: <a href="https://github.com/ucb-bar/constellation">ucb-bar/constellation</a></li>
-        <li>Description: Open‑source network‑on‑chip generator for scalable on‑chip interconnects in RISC‑V SoCs.</li>
-      </ul>
-
-      <h3>Chipyard (Lead developer)</h3>
-      <ul>
-        <li>Repo: <a href="https://github.com/ucb-bar/chipyard">ucb-bar/chipyard</a></li>
-        <li>Description: Open‑source SoC design framework integrating cores, accelerators, memory systems, and I/O with RTL simulation, FPGA prototyping, and ASIC flows.</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/f%C3%A9lix-fern%C3%A1ndez-de-castro-pardo-3053221a6/">Félix Fernández de Castro</a></li>
+        <li>GitHub: <a href="https://github.com/Blastopoil">Blastopoil</a></li>
+        <li>Email: <a href="mailto:felixfdec@gmail.com">felixfdec@gmail.com</a></li>
       </ul>
 
     </main>

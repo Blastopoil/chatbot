@@ -37,7 +37,7 @@ curl -X POST "$WORKER_URL/chat" \
   -H 'content-type: application/json' \
   -d '{
     "messages": [{"role":"user","content":"Hello!"}],
-    "system": "You are Jerry\'s site bot.",
+    "system": "You are Felix\'s site bot.",
     "reasoning": { "effort": "low" },
     "text": { "verbosity": "low" }
   }'
